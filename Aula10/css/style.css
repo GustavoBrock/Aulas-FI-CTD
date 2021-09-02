@@ -3,41 +3,47 @@ body {
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://wallpaperaccess.com/full/5548151.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
+    background-position: center center;
 }
 
 button {
     background-image: url("https://opengameart.org/sites/default/files/buttonStock1d.png");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 18vw;
-    width: 15vw;
-    height: 04.5vw;
+    background-size: 115%;
+    width: 20vw;
+    height: 6vw;
     color: azure;
     text-align: center;
     position: absolute;
     left: 42%;
     border-radius: 15%;
     top: 50%;
-    font-size: 1vw;
+    font-size: 2vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style:italic
 }
 
 h1 {
     background-color: rgb(253, 174, 70);
-    margin-top: 1%;
-    margin-right: 30%;
-    margin-left: 30%;
-    border-radius: 5%;
+    background-position: center center;
+    margin: center center;
+    font-size: 3vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
 h2 {
     background-color: rgb(190, 121, 30);
-    margin-top: 1%;
-    margin-right: 35%;
-    margin-left: 35%;
+    background-position: center center;
     border-radius: 5%;
+    margin: center center;
+    font-size: 2.5vh;
+    margin-left: 25%;
+    margin-right: 25%;
 }
