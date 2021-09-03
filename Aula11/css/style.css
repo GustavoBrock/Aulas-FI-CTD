@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images7.alphacoders.com/380/380460.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: 32%;
+}
+
+.Bl1 {
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    border: blue 3px solid;
+    left: 76.8%;
+    top: 0%;
+    border-radius: 90%;
+}
+
+.Bl2 {
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    border: blue 3px solid;
+    left: 70.3%;
+    top: 70%;
+    border-radius: 90%;
+}
+
+.Bl3 {
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    border: blue 3px solid;
+    left: 27%;
+    top: 70%;
+    border-radius: 90%;
+}
+
+#img1 {
+    width: 60px;
+    border-radius: 90%;
+}
+
+#img2 {
+    width: 12vh;
+    border-radius: 50%;
+}
+
+#img3 {
+    width: 7.5vh;
+    border-radius: 45%;
+}
+
+audio {
+    position: absolute;
+    top: 91%;
+    left: 1%
+}
