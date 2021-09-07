@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <form action="/usuario/cadastro" method="GET" id="usrcad">
+        <fieldset form="usrcad">
+            <legend>Informações gerais</legend>
+            <div>
+                <label for="nome">Nome:*</label>
+                <input type="text" name="nome" id="nome" required placeholder="Insira seu nome">
+            </div>
+
+            <div>
+                <label for="nome">Sobrenome:*</label>
+                <input type="text" name="nome" id="nome" required placeholder="Insira seu sobrenome">
+            </div>
+
+            <div>
+                <label for="email">Email:*</label>
+                <input type="email" name="email" id="email" placeholder="Insira seu email">
+            </div>
+
+            <div>
+                <label for="pwd">Senha:*</label>
+                <input type="password" name="pwd" id="pwd" placeholder="Insira sua senha">
+            </div>
+
+            <div>
+                <label for="pwd">Confirmação:*</label>
+                <input type="password" name="pwd" id="pwd" placeholder="Confirme sua senha">
+            </div>
+
+            <!--<div>
+                <label for="idade">Idade: *</label>
+                <input type="number" name="idade" id="idade">
+            </div> parte do código para conhecimento mas que não é necessária -->
+
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" name="data" value="2021-07-22" min="1930-01-01" max="2021-12-31">
+            </div>
+
+            <!--<div>
+                <label for="comentario">Deixe o seu comentário:</label>
+                <textarea name="comentario" id="comentario" maxlength="10">Conteúdo</textarea>
+            </div> parte do código para conhecimento mas que não é necessária -->
+        </fieldset>
+            <fieldset form="usrcad">
+                <legend>Preferências pessoais</legend>
+            <div>
+                <label for="livro">Escolha seu livro preferido:*</label>
+                <select name="livro" id="livro">
+                    <optgroup label="Tolkien">
+                        <option value="LOTR_FOR">Senhor dos Aneis: A Sociedade do Anel</option>
+                        <option value="LOTR_2T">Senhor dos Aneis: As Duas Torres</option>
+                        <option value="LOTR_ROK">Senhor dos Aneis: O Retorno do Rei</option>
+                        <option value="HOB">O Hobbit</option>
+                        <option value="SIL">O Silmarillion</option>
+                        <option value="TOMB">As Aventuras de Tom Bombadil</option>
+                        <option value="CONTI">Contos Inacabados</option>
+                        <option value="CJRRT">As Cartas de J.R.R. Tolkien</option>
+                        <option value="A&F">Árvore e Folha</option>
+                        <option value="FH">Os Filhos de Húrin</option>
+                        <option value="GONDO">A Queda de Gondolin</option>
+                        <option value="B&L">Beren e Lúthien</option>
+                    </optgroup>
+                    <optgroup label="J.K. Rowlling">
+                        <option value="HP1">Harry Potter e a Pedra Filosofal</option>
+                        <option value="HP2">Harry Potter e a Câmara Secreta</option>
+                        <option value="HP3">Harry Potter e o Prisioneiro de Azkaban</option>
+                        <option value="HP4">Harry Potter e o Cálice de Fogo</option>
+                        <option value="HP5">Harry Potter e a Ordem da Fênix</option>
+                        <option value="HP6">Harry Potter e o Enigma do Príncipe</option>
+                        <option value="HP7">Harry Potter e as Relíquias da Morte</option>
+                    </optgroup>
+                    <optgroup label="C.S. Lewis">
+                        <option value="ACN">As Crônicas de Nárnia</option>
+                        <option value="OGD">O Grande Divórcio</option>
+                        <option value="OQA">Os Quatro Amores</option>
+                        <option value="AAH">A Abolição do Homem</option>
+                        <option value="RC">Reflexões Cristãs</option>
+                        <option value="DBR">Deus no Banco dos Réus</option>
+                        <option value="CDA">Cartas de um Diabo a seu Aprendiz</option>
+                        <option value="UNM">Uma Noite no Mundo</option>
+                        <option value="CDA">O Assunto do Céu</option>
+                        <option value="CPS">Cristianismo Puro e Simples</option>
+                        <option value="CCSL">Cartas de C.S. Lewis</option>
+                        <option value="UECL">Um Experimento em Crítica Literária</option>
+                        <option value="M">Milagres</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <p>Hobbies:</p>
+                <input type="checkbox" name="hobbies" value="Música" id="hobmus"> <label for="hobmus">Música</label>
+                <input type="checkbox" name="hobbies" value="Pintura" id="hobpin"> <label for="hobpin">Pintura</label>
+                <input type="checkbox" name="hobbies" value="Jogar" id="hobjog"> <label for="hobjog">Jogar</label>
+                <input type="checkbox" name="hobbies" value="Praticar esporte" id="hobpe"> <label for="hobpe">Praticar Esporte</label>
+                <input type="checkbox" name="hobbies" value="Jerusalém" id="hobrj"> <label for="hobrj">Retomar Jerusalém</label>
+                <input type="checkbox" name="hobbies" value="Jedi" id="hobj"> <label for="hobj">Ser um Mestre Jedi</label>
+                <input type="checkbox" name="hobbies" value="Outros" id="hobo"> <label for="hobj">Outros <textarea name="comentario" id="comentario" maxlength="10"></textarea></label>
+            </div>
+        
+            <div>
+                <label for="Curso">Escolha seu Curso com base nos seus Hobbies:*</label>
+                <select name="Curso" id="Curso">
+                    <optgroup label="Música">
+                        <option value="LP">Como Ler Partituras: Do básico ao Avançado</option>
+                        <option value="HM">A História da Música Através dos Séculos</option>
+                        <option value="ME">Curso Básico de Música Erúdita</option>
+                    </optgroup>
+
+                    <optgroup label="Pintura">
+                        <option value="TP">Técnicas de Pintura: Do Rupeste ao Modernismo</option>
+                        <option value="HA">A História da Arte Através dos Séculos</option>
+                    </optgroup>
+
+                    <optgroup label="Jogar">
+                        <option value="ESP">Como tornar-se um E-Player de Sucesso</option>
+                        <option value="HG">A História da Industria de Games</option>
+                        <option value="DP">Como ser um deus no Carteado: Da Caxeta ao Poker</option>
+                    </optgroup>
+
+                    <optgroup label="Praticar Esporte">
+                        <option value="VA">Curso de Vôlei para Amadore</option>
+                        <option value="FA">Curso de Futebol para Amadores</option>
+                        <option value="XA">Curso de Xadrz para Amadores</option>
+                        
+                    </optgroup>
+
+                    <optgroup label="Retomar Jerusalém">
+                        <option value="CDP">Curso de Defesa Pessoal</option>
+                        <option value="CDO">Curso de Oratória para Coversão dos Pagãos</option>
+                        <option value="CDE">Curso de Esgrima para Menejo de Espada</option>
+                        <option value="CAR">Como Fazer sua Armadura com Coisas que Você tem em Casa</option>
+                        <option value="CDL">Curso de Latim para Pronunciar Corretamente 'Deus Vult!'</option>
+                        <option value="CDEB">Curso de Estratégia em Campo de Batalha</option>
+                    </optgroup>
+
+                    <optgroup label="Ser um Mestre Jedi">
+                        <option value="CDP">Curso de Defesa Pessoal</option>
+                        <option value="CDOY">Curso de Oratória com Yoda (Brinde um fardo de Schincariwalker para quem aguentar)</option>
+                        <option value="CDE">Curso de Esgrima para Menejo de Sabre-de-Luz</option>
+                        <option value="CDEF">Curso de como Entender a 'Força'</option>
+                        <option value="CDPP">Curso de Desenvolvimento Pessoal: Como Identificar se seu Padawan Está se Tornando um Sith</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset form="usrcad">
+            <legend>Dados de pagamento</legend>
+
+            <div>
+                <p>Forma de pagamento padrão:</p>
+                <input type="radio" name="meiopag" value="Pix" id="meiopagpix" checked> <label
+                    for="meiopagpix">Pix</label>
+                <input type="radio" name="meiopag" value="Crédito" id="meiopagcred"> <label
+                    for="meiopagcred">Crédito</label>
+                <input type="radio" name="meiopag" value="Boleto" id="meiopagbol"><label for="meiopagbol">Boleto</label>
+                <input type="radio" name="meiopag" value="Misericórdia Divina" id="meiopagmd"><label for="meiopagmd">Misericórdia Divina</label>
+            </div>
+        </fieldset>
+        <div id="buttons">
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>

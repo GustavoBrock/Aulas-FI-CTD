@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(248, 248, 248, 0.315), rgba(240, 240, 240, 0.185)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLo_C4ymM7fouHooFXBUrAphIo3folv5JzSw&usqp=CAU");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    margin: 5%;
+    border: 2px rgb(255, 0, 0) solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+   }
+   
+   legend {
+     background-color: rgb(255, 255, 255);
+     color: rgb(226, 43, 43);
+     font-size: 30px;
+     padding: 10px;
+     position: absolute; /* reposiciona a tag em relação ao body OU ao ancestral posicionado mais próximo */
+     top: -30px;
+font-family: 'Glory', sans-serif;
+   }
+   
+   h1, div {
+     margin: 20px;
+   }
+   
+   button {
+     padding: 10px;
+     margin: 10px;
+     background-color: rgb(226, 43, 43);
+     color: white;
+     font-size: 20px;
+     border: 0;
+     border-radius: 30px;
+     font-family: 'Glory', sans-serif;
+   }
+   
+   #buttons {
+     text-align: center;
+   }
