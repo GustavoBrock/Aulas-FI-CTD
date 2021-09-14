@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.863)), url("https://cdn.wallpapersafari.com/93/45/wcr1Kl.jpg");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(14, 129, 150);
+    word-spacing: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Glory', sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+    position: sticky;
+    top: 10px;
+    border: whitesmoke solid 3px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+h3:first-letter{
+    color:rgb(255, 115, 0);
+    font-size: xx-large;
+}
+
+p:first-letter{
+    color:rgb(255, 115, 0);
+}
+
+
+.logo1 {
+    width: 90px;
+    position: fixed;
+    top: 18px;
+    left: 15px;
+    opacity: 0.6;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.logo2 {
+    width: 90px;
+    position: fixed;
+    top: 18px;
+    right: 15px;
+    opacity: 0.6;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    text-align: left;
+}
+
+.cat {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 236, 236);
+    font-size: 35px;
+    text-align: left;
+}
+
+.page-description {
+    padding-left: 64px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.produtos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+.produto {
+
+    width: 150px;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(14, 130, 150, 0.308);
+    border-radius: 10px;
+
+}
+
+.produto:hover {
+
+    transform: scale(1.02);
+    filter: brightness(100%);
+
+}
+
+.produtoview {
+
+    width: 100%;
+
+}
+
+
+.product-title {
+
+    margin: 8px 0 12px;
+    color: white;
+
+}
+
+.product-description {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 1px;
+    background-color: rgba(14, 130, 150, 0.308);
+    background-size: 200%;
+    color: papayawhip;
+    text-align: justify;
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    line-height: 40px;
+}
+
+#web {
+    width: 25px;
+    position: relative;
+    bottom: 168px;
+    left: 141px;
+    opacity: 1;
+    z-index: 0;
+    border-radius: 100%;
+}
+
+#ytb {
+    width: 27px;
+    position: relative;
+    bottom: 130px;
+    left: 110.5px;
+    opacity: 1;
+    z-index: 0;
+    border-radius: 100%;
+}
+
+#int {
+    width: 25px;
+    position: relative;
+    bottom: 92px;
+    left: 80px;
+    opacity: 1;
+    z-index: 0;
+    border-radius: 30%;
+}
+
+#fb {
+    width: 25px;
+    position: relative;
+    bottom: 50px;
+    left: 52px;
+    opacity: 1;
+    z-index: 0;
+    border-radius: 30%;
+}
+
+#wpp {
+    width: 80px;
+    position: fixed;
+    top: 550px;
+    bottom: 50px;
+    right: 5px;
+    opacity: 1;
+    z-index: 0;
+    border-radius: 30%;
+}
+
+.news{
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    color: rgb(255, 115, 0) ;
+}
+
+.news::backdrop{
+    background: whitesmoke;
+}
+
+input:focus{
+    background-color:rgb(0, 0, 0);
+}
+
+button:disabled{
+    background-color: rgb(255, 115, 0);
+}
