@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://blogbolarolando.files.wordpress.com/2015/01/campo-de-futebol-wallpaper.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    position: relative;
+    top: 280px;
+}
+
+
+img:hover {
+    animation: deslizar 5s infinite;
+    cursor: pointer;
+}
+
+@keyframes deslizar {
+    0% {
+        opacity: 0%;
+        transform: rotate(200deg)
+    }
+
+    50% {
+        transform: translate(600%)
+    }
+    100% {
+        transform: rotate(200deg);
+        opacity: 100%;
+    }
+}
+
+
+.efeito {
+    border: solid white 1px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer; /*mostra o tipo do cursor (seta, mão, excel)*/
+    transition: all 400ms ease; /*all aplica a todo o elemento*/
+}
+
+.efeito1 {
+    background-color: #28348a;
+
+}
+
+.efeito1:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efeito1:hover::before {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+}
+
+audio{
+    border-radius: 10%;
+    width: 200px;
+    position: relative;
+    top: 400px;
+
+}
