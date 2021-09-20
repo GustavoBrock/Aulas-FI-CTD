@@ -1,0 +1,116 @@
+/*Documento do css onde criei minhas tags de estilo*/
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 72px 0;
+    background-image: linear-gradient(rgba(23, 0, 31, 0.493), rgba(14, 0, 19, 0.719)), url("https://wallpapercave.com/wp/wp2729921.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    top: 5%;
+    width: 8%;
+    right: 6.5%;
+    border-radius: 100%;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.titulo {
+    color: rgb(202, 173, 8);
+    padding-left: 64px;
+    margin-bottom: 6px;
+}
+
+.page-description {
+    padding-left: 64px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+.video {
+
+    width: 20%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor:context-menu;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(221, 209, 209, 0.322);
+    border-radius: 2%;
+   
+}
+
+.video:hover {
+
+    transform: scale(1.02);
+    filter: brightness(120%);
+
+}
+
+.thumbnail {
+
+    width: 100%;
+
+}
+
+.video-time {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    float: right;
+    padding: 8px 12px;
+    display: block;
+    transform: translateY(-35px);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.video-title {
+
+    margin: 8px 0 12px;
+    color: white;
+
+}
+
+.video-description {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.video-views {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.video-date {
+
+    text-align: right;
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+     font-family: 'Poppins', sans-serif;
+}
