@@ -87,6 +87,7 @@ h2 {
     padding-left: 5px;
     transition: .6s;
     cursor: pointer;
+    text-align: center;
 }
 
 h2:hover {
@@ -202,6 +203,8 @@ a {
 .links h1 {
     /* Para poder selcionar a tag h1 dentro da classe links */
     text-align: center;
+    font-size:x-large;
+    font-family: 'Roboto', sans-serif;
 }
 
 legend {
