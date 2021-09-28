@@ -42,10 +42,11 @@ header {
     border-radius: 5px;
     text-align: center;
     position: sticky;
-    top: 0;
+    top: 0px;
     overflow: hidden;
     z-index: 1;
     margin: 0;
+    height: 150px;
 }
 
 .logo1 {
@@ -64,6 +65,14 @@ header {
     right: 15px;
     opacity: 0.6;
     z-index: 1;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -203,7 +212,7 @@ a {
 .links h1 {
     /* Para poder selcionar a tag h1 dentro da classe links */
     text-align: center;
-    font-size:x-large;
+    font-size: x-large;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -249,6 +258,7 @@ button {
     transition: ease-in-out;
     cursor: pointer;
     /* para transformar o cursor do mouse na mãozinha de seleção */
+    border: none;
 }
 
 button:hover {
@@ -270,6 +280,24 @@ footer {
     height: auto;
     width: auto;
     grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.redes {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.info {
+    width: 50%;
+    float: right;
+    font-size: 20px;
+}
+
+h3 {
+    padding-left: 30px;
 }
 
 .a {
@@ -277,44 +305,45 @@ footer {
     color: rgb(255, 255, 255);
     list-style: none;
     line-height: 40px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.esq {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.dir {
+    padding: 10px;
+    margin-left: 30px;
 }
 
 #web {
-    width: 25px;
-    position: relative;
-    bottom: 168px;
-    left: 141px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
     z-index: 0;
-    border-radius: 100%;
 }
 
 #ytb {
-    width: 27px;
-    position: relative;
-    bottom: 130px;
-    left: 110.5px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
     z-index: 0;
-    border-radius: 100%;
 }
 
 #int {
-    width: 25px;
-    position: relative;
-    bottom: 92px;
-    left: 80px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
     z-index: 0;
-    border-radius: 30%;
 }
 
 #fb {
-    width: 25px;
-    position: relative;
-    bottom: 50px;
-    left: 52px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
     z-index: 0;
-    border-radius: 30%;
+
 }
