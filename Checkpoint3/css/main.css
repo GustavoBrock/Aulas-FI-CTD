@@ -1,0 +1,135 @@
+/* TAG PARA EDITAR ARQUIVOS DO MAIN */
+
+main{
+    position: relative;
+    top:20vh;
+}
+
+
+.carousel-item{
+    width: 100%;
+    height: 300px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.carousel-control-prev{
+background-color:#888888;
+}
+
+.carousel-control-next{
+    background-color:#888888;
+}
+
+ul li{
+    list-style: none;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #f7f7f7;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #888888;
+    transform: rotate(-90deg);
+    border: 0.1rem solid #888888;
+    opacity: .9;
+    z-index: 10;
+}
+
+.videos {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgba(184, 183, 183, 0.541);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+.videos h1{
+    font-size: 1em;
+}
+
+.video {
+    width: 30%;
+    height: auto;
+    margin-top: 24px;
+    padding: 10px;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+    color: white;
+    font-size:1em;
+}
+
+.video:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+    /*A tag hover é uma pseu-divisão que aplica estilos de efeito*/
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-time {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    float: right;
+    padding: 8px 12px;
+    display: block;
+    transform: translateY(-35px);
+}
+
+.video-title {
+    margin: 8px 0 12px;
+    color: white;
+}
+
+.video-views {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12px;
+    display: block;
+}
+
+.video-date {
+    text-align: right;
+    display: block;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 1em;
+}
+
+#pl1{
+    padding-top: 80px;
+}
+
+#pl2{
+    padding-top: 80px;
+}
+
+#pl3{
+    padding-top: 80px;
+}
+
+#pl4{
+    padding-top: 80px;
+}
+
+#pl5{
+    padding-top: 80px;
+}
+
+#pl6{
+    padding-top: 80px;
+}
